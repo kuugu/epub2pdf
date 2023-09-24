@@ -46,3 +46,5 @@ for item in data['manifest']:
 pages_idref = []
 for page in data['spine']:
     pages_idref.append(page.attrib['idref'])
+
+idref_to_file[pages_idref[4]]
